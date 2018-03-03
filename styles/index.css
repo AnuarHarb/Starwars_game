@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Starwars;
+  src: url(../font/starjedi.ttf);
+}
+@font-face {
+  font-family: Imperial;
+  src: url(../font/aurebesh.ttf);
+}
+@font-face {
+  font-family: Rebel;
+  src: url(../font/renegado.ttf);
+}
+body{
+  background-image:url(../img/divided_background.jpg);
+  background-size: 100%;
+}
+
+  nav{
+    background-color: black;
+    display: flex;
+  }
+  #How{
+    margin-right: 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: black;
+    white-space: inherit;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    color:transparent;
+    background-image: url(../img/Galactic_Empire_Emblem.jpg);
+    background-size:cover;
+  }
+  #How p{
+    margin-top: 1.7em;
+    font-family: Arial;
+    text-align: center;
+  }
+    #How:hover{
+    color:white;
+    background-image: none;
+    }
+    nav img{
+      height: 6em;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  #menu{
+    margin-left: 2em;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    color:transparent;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    background-color: black;
+    background-image: url(../img/rebel_alliance_emblem.jpg);
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+  }
+  #menu p{
+    margin-top: 1.7em;
+    font-family: Arial;
+  }
+  #menu:hover{
+    background-color: black;
+    background-image: none;
+    color:white;
+    white-space: inherit;
+  }
+
+  #centro{
+    color:white;
+  }
+
+    #centro h1{
+      margin-top: .24em;
+      font-size: 4em;
+      text-align: center;
+      font-family: Imperial;
+    }
+    #centro h1:hover{
+      font-family: Rebel;
+      margin-top: .4em;
+    }
+
+    #edition{
+      font-size: 3.5em;
+      text-align: center;
+      color:white;
+      font-family: Imperial;
+    }
+    #edition:hover{
+      font-family:Rebel;
+      color:lightred;
+    }
+
+  #main{
+    display: flex;
+    width: 100%;
+  }
+
+.rival{
+  width: 35%;
+  margin:7%;
+  margin-top: 6em;
+  display:flex;
+  background-color: black;
+  border:.2em solid black;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.rival p{
+  text-align: center;
+  font-family: Starwars;
+  margin-top: 1em;
+  font-size: .9em;
+}
+#two{
+  margin-left:0%;
+}
+#one{
+  margin-left:23.5%;
+  margin-right: 0%;
+}
+#Vader{
+  height: 20em;
+  width:40%;
+}
+
+.jugador{
+  height: 20em;
+  width:35%;
+}
+
+.boton{
+
+  padding-top: .5em;
+  padding-bottom: .5em;
+  white-space:inherit;
+  font-size: 3em;
+  color: white;
+  background-color: black;
+  border:none;
+}
+
+  .boton:hover{
+    background-image: url(../img/lightsaber_index2.jpg);
+    background-position: center;
+    background-size: cover;
+}

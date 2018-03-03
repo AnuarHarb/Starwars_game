@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/pvp.css">
+    <link rel="icon" type="image/png" href="../img/Lightsaber_icon.png" sizes="64x64" />
+  <title>EPIC Battle!</title>
+</head>
+
+<body id="body">
+  <nav>
+    <a id="menu" href="../templates/index.html"><p>Menu</p></a>
+    <img src="../img/StarWars_logo.jpg">
+    <a id="How" href="../templates/pvp.html"><p>Try again</p></a>
+  </nav>
+
+  <div id="main">
+
+    <div id="Alianza">
+    <img id="sith_code" src="../img/sith_code.png">
+    <h1 class="select">Select your weapon</h1>
+      <div>
+        <a id ="Lightsaber" class="Armas" href="">
+          <input id="Jedi_lightsaber" name="jedi" class="jedibutton" type="radio" onclick="sith()" value="1">
+          <h1>Lightsaber</h1>
+        </a>
+      </div>
+      <div>
+        <a id ="Blaster" class="Armas" href="">
+          <input id="Jedi_blaster" name="jedi" class="jedibutton" type="radio" onclick="sith()" value="2">
+          <h1>Blaster</h1>
+        </a>
+        <a id ="Force" class="Armas" href="">
+          <input id="Jedi_force" name="jedi" class="jedibutton" type="radio" onclick="sith()" value="3">
+          <h1>The force</h1>
+        </a>
+      </div>
+    </div>
+
+    <div id="Imperio">
+      <img id="jedi_code" src="../img/jedi_code.png">
+      <h1 class="select">Select your weapon</h1>
+      <div>
+        <a id="Ls" class="Armas" href="../templates/result_pvp.html">
+          <input id="Sith_lightsaber" name="sith" class="sithbutton" type="radio" onclick="result()" value="1">
+          <h1>Lightsaber</h1>
+        </a>
+      </div>
+      <div>
+        <a id="Bl" class="Armas" href="">
+          <input id="Sith_blaster" name="sith" class="sithbutton" type="radio" onclick="result()" value="2">
+          <h1>Blaster</h1>
+        </a>
+        <a id="Fo" class="Armas" href="">
+          <input id="Sith_force" name="sith" class="sithbutton" type="radio" onclick="result()" value="3">
+          <h1>The force</h1>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="main2">
+
+    <div id="Jedilightsaber_Sithlightsaber" class="result">
+      <img id="JL_SL"  class="img" src="../img/jedi_sith_lightsaber.jpg" >
+      <h1>its a tie </h1>
+      <p>You enter to a neverending fight</p>
+    </div>
+    <div id="Jedilightsaber_Sithblaster"  class="result">
+      <img id="JL_SB" class="img" src="../img/lightsaber_blaster_result.jpg" >
+      <h1>Jedi win </h1>
+      <p>The lightsaber deflects blaster shots</p>
+    </div>
+    <div id="Jedilightsaber_Sithforce"  class="result">
+      <img id="JL_Sf" class="img" src="../img/jedi_lightsaber_sith_force.jpg" >
+      <h1>Sith win </h1>
+      <p>Sith force lightning can fray any jedi</p>
+    </div>
+    <div id="Jediblaster_Sithlightsaber"  class="result">
+      <img id="JB_SL" class="img" src="../img/lightsaber_blaster_result2.jpg" >
+      <h1>Sith win </h1>
+      <p>The lightsaber deflects blaster shots</p>
+    </div>
+    <div id="Jediblaster_Sithblaster"  class="result">
+      <img id="JB_SB" class="img" src="../img/blaster_tie_result.jpg" >
+      <h1>its a tie </h1>
+      <p>The battle with blaster is even</p>
+    </div>
+    <div id="Jediblaster_Sithforce"  class="result">
+      <img id="JB_SF" class="img" src="../img/blaster_force_result.jpg" >
+      <h1>Jedi win </h1>
+      <p>The Jedi army can can overrun any sith</p>
+    </div>
+    <div id="Jediforce_Sithlightsaber"  class="result">
+      <img id="JF_Sl" class="img" src="../img/force_lightsaber_result.jpg" >
+      <h1>Jedi win </h1>
+      <p>The jedi forcepower can disarm your sith lightsaber</p>
+    </div>
+    <div id="Jediforce_Sithblaster"  class="result">
+      <img id="JF_SB" class="img" src="../img/jedi_blaster_force.jpg" >
+      <h1>Sith win </h1>
+      <p>The sith army is a fearful enemy for the jedi force</p>
+    </div>
+    <div id="Jediforce_Sithforce"  class="result">
+      <img id="JF_SF" class="img" src="../img/force_tie.jpg" >
+      <h1>its a tie </h1>
+      <p>The force has no side, it only is</p>
+    </div>
+
+  </div>
+
+  <audio id="be" src="../sound/button.wav"></audio>
+  <audio id="beep" src="../sound/beep.wav"></audio>
+  <audio id="theme" src="../sound/rebel-theme.wav"></audio>
+
+
+  <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="../js/results_pvp.js"></script>
+  <script type="text/javascript" src="../js/sound.js"></script>
+</body>
+</html>

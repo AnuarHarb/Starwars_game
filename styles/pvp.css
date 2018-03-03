@@ -1,0 +1,247 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Starwars;
+  src: url(../font/starjedi.ttf);
+}
+
+body{
+  background-image: url(../img/background_pvp.jpg);
+  background-size: 100%;
+}
+
+  nav{
+    background-color: black;
+    display: flex;
+  }
+  #How{
+    margin-right: 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: black;
+    white-space: inherit;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    color:transparent;
+    background-image: url(../img/Galactic_Empire_Emblem.jpg);
+    background-size:cover;
+  }
+  #How p{
+    margin-top: 1.7em;
+    font-family: Arial;
+    text-align: center;
+  }
+    #How:hover{
+    color:white;
+    background-image: none;
+    }
+    nav img{
+      height: 6em;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  #menu{
+    margin-left: 2em;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    color:transparent;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    background-color: black;
+    background-image: url(../img/rebel_alliance_emblem.jpg);
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+  }
+  #menu p{
+    margin-top: 1.7em;
+    font-family: Arial;
+  }
+  #menu:hover{
+    background-color: black;
+    background-image: none;
+    color:white;
+    white-space: inherit;
+  }
+
+#main{
+  width: 100%;
+  display:flex;
+}
+
+  .select{
+    color:white;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: Starwars;
+    }
+
+    .Armas{
+      width:15em;
+      height: 10em;
+      margin-top: 4em;
+      margin-left: 15em;
+      background-position: center;
+      background-size: cover;
+      text-decoration: none;
+      border-radius: 5%;
+      color: transparent;
+    }
+    .Armas h1{
+      margin-top: 0em;
+      text-align: center;
+      font-family: Starwars;
+      font-size: 1.5em;
+    }
+  .Armas:hover{
+      color: yellow;
+      box-shadow:0 0 1em black;
+    }
+  #Alianza{
+    width:50%;
+    height: 44em;
+}
+  #sith_code{
+    position:absolute;
+    width:50%;
+    hight:40em;
+  }
+  #Alianza div{
+    display:inline-flex;
+  }
+    #Lightsaber{
+      background-image:url(../img/lightsaber_pvp.jpg);
+    }
+    #Blaster{
+      margin-left: 6em;
+      background-image: url(../img/blaster_pvp.jpg);
+    }
+    #Blaster h1{
+      margin-top: 5em;
+      text-align: left;
+      margin-left: .7em;
+    }
+    #Force{
+      margin-left: 4em;
+      background-image: url(../img/force_pvp.jpg);
+    }
+    #Force h1{
+      margin-top: 0;
+      text-align: right;
+    }
+  #Imperio{
+    width:50%;
+    height: 44em;
+    }
+    #jedi_code{
+    position:absolute;
+    width:50%;
+    hight:40em;
+    }
+    #Imperio div{
+    display:inline-flex;
+    }
+    #Ls{
+      background-image: url(../img/lightsaber2_pvp.jpg);
+      margin-right: 15em;
+    }
+    #Ls h1{
+      text-align: left;
+      margin-left: .8em;
+    }
+    #Bl{
+      background-image: url(../img/blaster2_pvp.jpg);
+      margin-left: 6em;;
+    }
+    #Bl h1{
+      margin-top: 0em;
+    }
+    #Fo{
+      background-image: url(../img/force2_pvp.jpg);
+      margin-left: 4em;
+      margin-right: 6em;
+    }
+    #Fo h1{
+      margin-top: .1em;
+      margin-left: .7em;
+      text-align: left;
+    }
+
+  .jedibutton{
+    width:18em;
+    height:12em;
+    opacity:0;
+    position:absolute;
+  }
+  .sithbutton{
+    width:18em;
+    height:12em;
+    opacity:0;
+    position:absolute;
+  }
+
+
+/*main2*/
+
+#main2{
+  margin-top: 1em;
+  margin-left: 22.5%;
+  width:55%;
+  display:none;
+}
+#main2 h1{
+  color:yellow;
+  text-align: center;
+  font-family: Starwars;
+  padding:1em;
+  padding-bottom: 0;
+}
+#main2 p{
+  color:white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 2em;
+}
+
+/*Divs*/
+.result{
+  display:none;
+}
+  /*Images*/
+.img{
+  width:80%;
+  margin-left:10%;
+}
+#JL_SL{
+  width:70%;
+  margin-left:15%;
+}
+#JL_SB{
+  width:80%;
+  margin-left:10%;
+}
+#JL_Sf{
+  width:60%;
+  margin-left:20%;
+}
+#JB_SF{
+  width:70%;
+  margin-left:15%;
+}
+#JF_Sl{
+  width:50%;
+  margin-left:25%;
+}
+#JF_SB{
+  width:50%;
+  margin-left:25%;
+}

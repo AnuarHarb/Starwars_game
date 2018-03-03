@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Starwars;
+  src: url(../font/starjedi.ttf);
+}
+
+body{
+  background-image: url(../img/millenium_falcon.jpg);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+  nav{
+    background-color: black;
+    display: flex;
+  }
+  #How{
+    margin-right: 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: black;
+    white-space: inherit;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    color:transparent;
+    background-image: url(../img/Galactic_Empire_Emblem.jpg);
+    background-size:cover;
+  }
+  #How p{
+    margin-top: 1.7em;
+    font-family: Arial;
+    text-align: center;
+  }
+    #How:hover{
+    color:white;
+    background-image: none;
+    }
+    nav img{
+      height: 6em;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  #menu{
+    margin-left: 2em;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    color:transparent;
+    border:none;
+    border-radius: 100%;
+    height:5em;
+    width: 5em;
+    background-color: black;
+    background-image: url(../img/rebel_alliance_emblem.jpg);
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+  }
+  #menu p{
+    margin-top: 1.7em;
+    font-family: Arial;
+  }
+  #menu:hover{
+    background-color: black;
+    background-image: none;
+    color:white;
+    white-space: inherit;
+  }
+
+#main{
+  display: flex;
+}
+  article{
+    margin-left: 5%;
+    width:40%;
+  }
+    article h1{
+      font-family: Starwars;
+      font-size: 4em;
+      text-align: center;
+    }
+    article h2{
+      margin-top: 1em;
+      font-family:Starwars;
+      color:black;
+      text-align: center;
+    }
+    article p{
+      margin-left: 23%;
+      font-size:1.5em;
+      font-family: Arial;
+    }
+    article h4{
+      font-size:1.2em;
+      text-align: center;
+      font-family:Starwars;
+      color:black;
+    }
+  #main div{
+    font-family:Starwars;
+    margin-left: 30%;
+    margin-top: 8em;
+    width:20%;
+    height: 10em;
+    background-color:darkgrey;
+    border-radius: 10%;
+    text-align: center;
+  }
+  #main div h3{
+    display: inline-flex;
+    margin-top: 1em;
+  }
+  .lightsaber{
+    color:blue;
+  }
+  .blaster{
+    color:red;
+  }
+  .force{
+    color:white;
+  }
