@@ -1,39 +1,29 @@
-$(".vs").hover(
+$(".vs").mouseenter(
     function audio1() {
      lig.play()
     }
  );
- $(".v").hover(
+ $(".v").mouseenter(
      function audio1() {
       mask.play()
      }
   );
-  $(".pvcb").hover(
+  $(".pvcb").mouseenter(
       function audio1() {
        blr.play()
       }
    );
-   $(".pvcf").hover(
+   $(".pvcf .pvcf").mouseenter(
        function audio1() {
         foc.play()
        }
     );
-    $(".pvcf").hover(
-        function audio1() {
-         foc.play()
-        }
-     );
-     $(".Armas").hover(
+     $(".Armas").mouseenter(
          function audio1() {
           be.play()
          }
       );
-    $(".sithbutton").click(
-        function audio1(){
-        beep.play()
-        }
-    );
-    $(".jedibutton").click(
+    $(".sithbutton, .jedibutton").click(
         function audio1(){
         beep.play()
         }

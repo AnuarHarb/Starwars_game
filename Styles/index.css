@@ -114,7 +114,7 @@ body{
 .rival{
   width: 35%;
   margin:7%;
-  margin-top: 6em;
+  margin-top: 2em;
   display:flex;
   background-color: black;
   border:.2em solid black;
@@ -133,7 +133,7 @@ body{
   margin-left:0%;
 }
 #one{
-  margin-left:23.5%;
+  margin-left:20.5%;
   margin-right: 0%;
 }
 #Vader{

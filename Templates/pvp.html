@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../styles/pvp.css">
-    <link rel="icon" type="image/png" href="../img/Lightsaber_icon.png" sizes="64x64" />
+  <link rel="icon" type="image/png" href="../img/Lightsaber_icon.png" sizes="64x64" />
   <title>EPIC Battle!</title>
+  <link rel="stylesheet" href="../styles/pvp.css">
 </head>
 
 <body id="body">
@@ -15,10 +15,11 @@
   </nav>
 
   <div id="main">
-
-    <div id="Alianza">
-    <img id="sith_code" src="../img/sith_code.png">
-    <h1 class="select">Select your weapon</h1>
+    <section id="Alianza">
+      <div id="sith_code">
+        <img src="../img/sith_code.png">
+      </div>
+      <h1 class="select">Select your weapon</h1>
       <div>
         <a id ="Lightsaber" class="Armas" href="">
           <input id="Jedi_lightsaber" name="jedi" class="jedibutton" type="radio" onclick="sith()" value="1">
@@ -35,10 +36,12 @@
           <h1>The force</h1>
         </a>
       </div>
-    </div>
+    </section>
 
-    <div id="Imperio">
-      <img id="jedi_code" src="../img/jedi_code.png">
+    <section id="Imperio">
+      <div id="jedi_code">
+        <img src="../img/jedi_code.png">
+      </div>
       <h1 class="select">Select your weapon</h1>
       <div>
         <a id="Ls" class="Armas" href="../templates/result_pvp.html">
@@ -56,12 +59,10 @@
           <h1>The force</h1>
         </a>
       </div>
-
-    </div>
+    </section>
   </div>
 
   <div id="main2">
-
     <div id="Jedilightsaber_Sithlightsaber" class="result">
       <img id="JL_SL"  class="img" src="../img/jedi_sith_lightsaber.jpg" >
       <h1>its a tie </h1>
@@ -107,7 +108,6 @@
       <h1>its a tie </h1>
       <p>The force has no side, it only is</p>
     </div>
-
   </div>
 
   <audio id="be" src="../sound/button.wav"></audio>
