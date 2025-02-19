@@ -24,13 +24,13 @@ nav {
   text-decoration: none;
   background-color: black;
   white-space: inherit;
-  border:none;
+  border: none;
   border-radius: 100%;
-  height:5em;
+  height: 5em;
   width: 5em;
-  color:transparent;
+  color: transparent;
   background-image: url(../img/Galactic_Empire_Emblem.jpg);
-  background-size:cover;
+  background-size: cover;
 }
 
 #How p {
@@ -40,13 +40,13 @@ nav {
 }
 
 #How:hover {
-  color:white;
+  color: white;
   background-image: none;
 }
 
 nav img {
   height: 6em;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,14 +55,14 @@ nav img {
   font-size: 1.3em;
   text-align: center;
   text-decoration: none;
-  color:transparent;
-  border:none;
+  color: transparent;
+  border: none;
   border-radius: 100%;
-  height:5em;
+  height: 5em;
   width: 5em;
   background-color: black;
   background-image: url(../img/rebel_alliance_emblem.jpg);
-  background-size:cover;
+  background-size: cover;
   background-repeat: none;
   background-position: center;
 }
@@ -75,12 +75,12 @@ nav img {
 #menu:hover {
   background-color: black;
   background-image: none;
-  color:white;
+  color: white;
   white-space: inherit;
 }
 
 .select {
-  color:white;
+  color: white;
   font-family: Starwars;
   font-size: 40px;
   margin-top: 40px;
@@ -88,7 +88,7 @@ nav img {
 }
 
 .Armas {
-  width:15em;
+  width: 15em;
   height: 10em;
   margin-top: 4em;
   margin-left: 15em;
@@ -106,40 +106,47 @@ nav img {
   font-size: 1.5em;
 }
 
-.Armas:hover{
+.Armas:hover {
   color: yellow;
-  box-shadow:0 0 1em black;
+  box-shadow: 0 0 1em black;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
 }
 
 #Alianza,
 #Imperio {
   box-sizing: border-box;
   display: inline-block;
-  height: 100%;
   position: relative;
   vertical-align: top;
-  width:50%;
+  height: 100%;
+  width: 50%;
 }
 
-#sith_code{
+#sith_code {
   background-color: black;
-  position:absolute;
-  width:100%;
+  position: absolute;
+  width: 100%;
   top: 0;
-  left:0;
-  bottom:0;
+  left: 0;
+  bottom: 0;
 }
 
 #sith_code img {
   width: 100%;
 }
 
-#Alianza div{
-  display:inline-flex;
+#Alianza div {
+  display: inline-flex;
 }
 
 #Lightsaber {
-  background-image:url(../img/lightsaber_pvp.jpg);
+  background-image: url(../img/lightsaber_pvp.jpg);
 }
 
 #Blaster {
@@ -150,7 +157,7 @@ nav img {
 #Blaster h1 {
   margin-top: 5em;
   text-align: left;
-  margin-left: .7em;
+  margin-left: 0.7em;
 }
 
 #Force {
@@ -165,11 +172,11 @@ nav img {
 
 #jedi_code {
   background-color: black;
-  position:absolute;
-  width:100%;
+  position: absolute;
+  width: 100%;
   top: 0;
-  bottom:0;
-  right:0;
+  bottom: 0;
+  right: 0;
 }
 
 #jedi_code img {
@@ -177,7 +184,7 @@ nav img {
 }
 
 #Imperio div {
-display:inline-flex;
+  display: inline-flex;
 }
 
 #Ls {
@@ -187,12 +194,12 @@ display:inline-flex;
 
 #Ls h1 {
   text-align: left;
-  margin-left: .8em;
+  margin-left: 0.8em;
 }
 
 #Bl {
   background-image: url(../img/blaster2_pvp.jpg);
-  margin-left: 6em;;
+  margin-left: 6em;
 }
 
 #Bl h1 {
@@ -206,45 +213,44 @@ display:inline-flex;
 }
 
 #Fo h1 {
-  margin-top: .1em;
-  margin-left: .7em;
+  margin-top: 0.1em;
+  margin-left: 0.7em;
   text-align: left;
 }
 
 .jedibutton {
-  width:18em;
-  height:12em;
-  opacity:0;
-  position:absolute;
+  width: 18em;
+  height: 12em;
+  opacity: 0;
+  position: absolute;
 }
 
 .sithbutton {
-  width:18em;
-  height:12em;
-  opacity:0;
-  position:absolute;
+  width: 18em;
+  height: 12em;
+  opacity: 0;
+  position: absolute;
 }
-
 
 /*main2*/
 
 #main2 {
   margin-top: 1em;
   margin-left: 22.5%;
-  width:55%;
-  display:none;
+  width: 55%;
+  display: none;
 }
 
 #main2 h1 {
-  color:yellow;
+  color: yellow;
   text-align: center;
   font-family: Starwars;
-  padding:1em;
+  padding: 1em;
   padding-bottom: 0;
 }
 
 #main2 p {
-  color:white;
+  color: white;
   text-align: center;
   font-family: Arial;
   font-size: 2em;
@@ -252,41 +258,41 @@ display:inline-flex;
 
 /*Divs*/
 .result {
-  display:none;
+  display: none;
 }
 
-  /*Images*/
+/*Images*/
 .img {
-  width:80%;
-  margin-left:10%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #JL_SL {
-  width:70%;
-  margin-left:15%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 #JL_SB {
-  width:80%;
-  margin-left:10%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 #JL_Sf {
-  width:60%;
-  margin-left:20%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 #JB_SF {
-  width:70%;
-  margin-left:15%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 #JF_Sl {
-  width:50%;
-  margin-left:25%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 #JF_SB {
-  width:50%;
-  margin-left:25%;
+  width: 50%;
+  margin-left: 25%;
 }
